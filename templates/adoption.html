@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/breedstyle.css">
+    </head>
+    <body>
+        <ul>
+            <li><img src="images/catpaw.png" usemap="#home" width="100" height="100"></p>
+                <map name="home">
+                <area shape="rect" coords="34,44,270,350" alt="home" href="/">
+                </map>
+            </li>
+            <li><a class="active" href="breeds">Cat Breeds</a></li>
+            <li><a href="pictures">Pictures</a></li>
+            <li><a href="guestbook">Guest Book</a></li>
+            <li><a href="facts">Facts</a></li>
+            <li><a href="signup">Sign Up</a></li>
+                {% if session ['logged_in'] == True %}
+            <li><a href="logout">Logout</a></li>
+            {% else %}
+            <li><a href="login">Login</a></li>
+            {% endif %}
+        </ul>
+
+        <!--
+        <div class="cats">
+            <img src="https://pet-uploads.adoptapet.com/0/e/3/392375653.jpg">
+            <h2>Kalahari</h2>
+            <p>Domestic Shorthair</p>
+            <p></p>
+        </div> <br>
+
+        <div class="cats">
+            <img src="https://pet-uploads.adoptapet.com/2/8/9/394816818.jpg">
+            <h2>Fancy</h2>
+            <p>Domestic Shorthair</p>
+            <p></p>
+        </div> <br>
+
+        <div class="cats">
+            <img src="https://pet-uploads.adoptapet.com/6/4/6/396649046.jpg">
+            <h2>Everest</h2>
+            <p>Domestic Shorthair</p>
+            <p></p>
+        </div>
+        -->
+                <img href="adoption1" src="{{img}}"><br>
+        <p>{{name1}}</p><br>
+            {{breed1}}<br>
+            {{location1}}<br>
+            {{brd1}}
+    </body>
+</html>

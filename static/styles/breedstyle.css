@@ -1,0 +1,73 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6CC7D3;
+    font-family: Quiet Meows, Helvetica, sans-serif;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 40px 20px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #443;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  body {margin:8px;
+  }
+
+  .picture {
+    width: 35%;
+    background-color: #F7E4E0;
+    margin-left:350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+
+  div.picture1 {
+    width: 35%;
+    align-content: center;
+    background-color: #F7E4E0;
+    margin-left:350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+
+  div.box {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: large;
+    font-family: Austie Bost Kitten Klub;
+  }
+
+  div.breedimg{
+    width: 35%;
+    float: left;
+    background-color: #F7E4E0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+
+  div.breeddetails{
+    margin-right: 600px;
+    background-color: ivory;
+    width: 1200px;
+    border: 25px lightpink;
+    padding: 30px;
+  }
+
+
